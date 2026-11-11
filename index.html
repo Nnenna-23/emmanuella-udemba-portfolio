@@ -1,315 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Emmanuella Udemba | Developer Portfolio</title>
-
-  <meta
-    name="description"
-    content="Emmanuella Udemba's portfolio showcasing Computer Science education, software development skills and projects."
-  >
-
+  <meta name="author" content="Emmanuella Udemba">
+  <meta name="description" content="The academic and professional portfolio of Emmanuella Udemba, Computer Science student at Miva Open University.">
+  <title>Emmanuella Udemba | Academic Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-
-  <!-- NAVIGATION -->
   <header class="header">
-    <nav class="navbar">
-
-      <a href="#home" class="logo">
-        NUELLA<span>.</span>
-      </a>
-
-      <ul class="nav-links">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="logo">NUELLA<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button"
+        aria-label="Open navigation" aria-controls="nav-links" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#planner">Planner</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-
-      <a href="#contact" class="nav-button">
-        Let's Connect
-      </a>
-
+      <a href="#contact" class="nav-button">Let's Connect</a>
     </nav>
   </header>
 
-
   <main>
-
-    <!-- HERO SECTION -->
     <section id="home" class="hero">
-
       <div class="hero-content">
-
-        <span class="section-label">
-          COMPUTER SCIENCE STUDENT
-        </span>
-
-        <h1>
-          Hello, I'm
-          <span>Emmanuella Udemba.</span>
-        </h1>
-
-        <h2>
-          Learning, Building and Creating with Technology.
-        </h2>
-
-        <p>
-          I am a Computer Science student passionate about
-          software development, technology and building
-          meaningful digital experiences.
-        </p>
-
+        <span class="section-label">COMPUTER SCIENCE STUDENT</span>
+        <h1>Hello, I'm <span>Emmanuella Udemba.</span></h1>
+        <h2>Learning, Building and Creating with Technology.</h2>
+        <p>I am a Computer Science student at Miva Open University interested in software development, cybersecurity and exploring how technology can solve everyday problems.</p>
         <div class="hero-buttons">
-
-          <a href="#projects" class="primary-button">
-            Explore My Projects
-          </a>
-
-          <a href="#contact" class="secondary-button">
-            Contact Me
-          </a>
-
+          <a href="#projects" class="primary-button">Explore My Projects</a>
+          <a href="#contact" class="secondary-button">Contact Me</a>
         </div>
-
         <div class="social-links">
-
-          <a
-            href="https://www.linkedin.com/in/emmanuella-udemba-a157283a9/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn ↗
-          </a>
-
+          <a href="https://www.linkedin.com/in/emmanuella-udemba-a157283a9/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
         </div>
-
       </div>
-
-
       <div class="hero-image">
-
-        <img
-          src="./profile.jpg"
-          alt="Portrait of Emmanuella Udemba"
-        >
-
+        <img src="./profile.jpg" alt="Portrait of Emmanuella Udemba">
       </div>
-
     </section>
 
-
-    <!-- ABOUT SECTION -->
     <section id="about" class="section">
-
       <div class="section-heading">
-
-        <span class="section-label">
-          GET TO KNOW ME
-        </span>
-
-        <h2>
-          About <span>Me</span>
-        </h2>
-
+        <span class="section-label">GET TO KNOW ME</span>
+        <h2>About <span>Me</span></h2>
       </div>
-
       <div class="about-content">
-
-        <p>
-          I am Emmanuella Udemba, a Computer Science student
-          at Miva Open University with an interest in software
-          development and technology.
-        </p>
-
-        <p>
-          My journey involves learning through academic
-          studies, personal projects and collaborative
-          experiences. I enjoy exploring ideas and turning
-          them into practical digital projects.
-        </p>
-
-        <p>
-          I believe in continuous learning, creativity,
-          teamwork and building technology that can make
-          a meaningful difference.
-        </p>
-
+        <p>My name is Emmanuella Udemba. I am a Computer Science student at Miva Open University with a growing interest in software development and the wider technology industry.</p>
+        <p>I enjoy learning how digital products are designed and developed. Through academic exercises, independent study and collaborative projects, I am building my technical knowledge and problem-solving abilities.</p>
+        <p>My long-term ambition is to become a skilled technology professional and eventually build a technology company that creates useful digital solutions.</p>
+        <p>Outside my technical studies, I enjoy creative writing, exploring new ideas and learning about languages and different cultures.</p>
       </div>
-
     </section>
 
+    <section id="aspirations" class="section">
+      <div class="section-heading">
+        <span class="section-label">LOOKING AHEAD</span>
+        <h2>Career <span>Aspirations</span></h2>
+      </div>
+      <div class="aspiration-grid">
+        <article class="skill-card">
+          <h3>Software Development</h3>
+          <p>To improve my ability to design and build useful websites, applications and software products.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Cybersecurity</h3>
+          <p>To understand how digital systems are protected and develop responsible defensive security skills.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Entrepreneurship</h3>
+          <p>To establish a technology company that develops practical solutions and creates opportunities.</p>
+        </article>
+      </div>
+    </section>
 
-    <!-- EDUCATION SECTION -->
     <section id="education" class="section">
-
       <div class="section-heading">
-
-        <span class="section-label">
-          MY ACADEMIC JOURNEY
-        </span>
-
-        <h2>
-          Education & <span>Growth</span>
-        </h2>
-
+        <span class="section-label">MY ACADEMIC JOURNEY</span>
+        <h2>Education &amp; <span>Growth</span></h2>
       </div>
-
-      <div class="education-card">
-
-        <span class="education-label">
-          CURRENT STUDIES
-        </span>
-
-        <h3>Computer Science</h3>
-
+      <article class="education-card">
+        <span class="education-label">CURRENT STUDIES</span>
+        <h3>Bachelor's Studies in Computer Science</h3>
         <h4>Miva Open University</h4>
-
-        <p>
-          Pursuing academic studies in Computer Science
-          while developing practical knowledge through
-          programming, independent learning and projects.
-        </p>
-
+        <p>Developing foundational knowledge in computing while gaining practical experience through programming, assignments and personal projects.</p>
+      </article>
+      <div class="table-wrapper">
+        <h3 class="subheading">My Learning Areas</h3>
+        <table class="academic-table">
+          <thead>
+            <tr><th>Learning Area</th><th>Focus</th><th>Progress</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Web Development</td><td>HTML, CSS and JavaScript</td><td>Learning and practising</td></tr>
+            <tr><td>Software Development</td><td>Programming and projects</td><td>Developing foundations</td></tr>
+            <tr><td>Cybersecurity</td><td>Security fundamentals</td><td>Beginner learning</td></tr>
+          </tbody>
+        </table>
       </div>
-
     </section>
 
-
-    <!-- SKILLS SECTION -->
     <section id="skills" class="section">
-
       <div class="section-heading">
-
-        <span class="section-label">
-          WHAT I'M LEARNING
-        </span>
-
-        <h2>
-          My <span>Skills</span>
-        </h2>
-
+        <span class="section-label">WHAT I'M LEARNING</span>
+        <h2>My <span>Skills</span></h2>
       </div>
-
       <div class="skills-grid">
-
-        <div class="skill-card">
-          <h3>HTML</h3>
-          <p>Building structured web pages.</p>
-        </div>
-
-        <div class="skill-card">
-          <h3>CSS</h3>
-          <p>Styling and designing web interfaces.</p>
-        </div>
-
-        <div class="skill-card">
-          <h3>JavaScript</h3>
-          <p>Developing interactive web experiences.</p>
-        </div>
-
-        <div class="skill-card">
-          <h3>Team Collaboration</h3>
-          <p>Working with others to develop projects.</p>
-        </div>
-
-        <div class="skill-card">
-          <h3>Problem Solving</h3>
-          <p>Learning to approach technical challenges.</p>
-        </div>
-
-        <div class="skill-card">
-          <h3>Continuous Learning</h3>
-          <p>Exploring new concepts and technologies.</p>
-        </div>
-
+        <article class="skill-card"><h3>HTML</h3><p>Creating structured web pages with semantic elements.</p></article>
+        <article class="skill-card"><h3>CSS</h3><p>Styling responsive and visually appealing interfaces.</p></article>
+        <article class="skill-card"><h3>JavaScript</h3><p>Learning to create interactive web experiences.</p></article>
+        <article class="skill-card"><h3>Team Collaboration</h3><p>Working with others to develop digital projects.</p></article>
+        <article class="skill-card"><h3>Problem Solving</h3><p>Approaching technical challenges logically.</p></article>
+        <article class="skill-card"><h3>Continuous Learning</h3><p>Exploring new concepts and technologies.</p></article>
       </div>
-
     </section>
 
-
-    <!-- PROJECTS SECTION -->
     <section id="projects" class="section projects-section">
-
       <div class="section-heading">
-
-        <span class="section-label">
-          MY WORK
-        </span>
-
-        <h2>
-          Featured <span>Projects</span>
-        </h2>
-
-        <p>
-          A selection of projects that represent my learning,
-          creativity and collaborative experience.
-        </p>
-
+        <span class="section-label">MY WORK</span>
+        <h2>Featured <span>Projects</span></h2>
+        <p>Projects that demonstrate my learning and collaboration.</p>
       </div>
-
-
       <div class="projects-grid">
-
-
-        <!-- HANZIRISE PROJECT -->
         <article class="project-card">
-
           <div class="project-image hanzi-image">
-
             <div class="phone-mockup">
-
               <div class="phone-speaker"></div>
-
               <div class="phone-screen">
-
-                <img
-                  src="./HanziRise.png"
-                  alt="HanziRise Chinese vocabulary learning interface"
-                >
-
+                <img src="./HanziRise.png" alt="HanziRise language learning interface">
               </div>
-
               <div class="phone-home-indicator"></div>
-
             </div>
-
-            <span class="mockup-caption">
-              HANZIRISE · MOBILE EXPERIENCE
-            </span>
-
+            <span class="mockup-caption">HANZIRISE · MOBILE EXPERIENCE</span>
           </div>
-
-
           <div class="project-content">
-
-            <span class="project-tag">
-              COLLABORATIVE PROJECT
-            </span>
-
-            <div class="project-meta">
-              <span>01 / LANGUAGE TECHNOLOGY</span>
-              <span>WEB PROJECT</span>
-            </div>
-
+            <span class="project-tag">COLLABORATIVE PROJECT</span>
+            <div class="project-meta"><span>01 / LANGUAGE TECHNOLOGY</span><span>WEB PROJECT</span></div>
             <h3>HanziRise</h3>
-
-            <p>
-              HanziRise is a collaborative Chinese
-              language-learning platform designed to make
-              learning more engaging and accessible.
-            </p>
-
+            <p>A collaborative Chinese language-learning platform designed to make language learning engaging and accessible.</p>
             <h4>Key Features</h4>
-
             <ul>
               <li>Chinese lessons and vocabulary</li>
               <li>Character components and radicals</li>
@@ -317,189 +154,153 @@
               <li>Listening and audio practice</li>
               <li>Offline learning</li>
             </ul>
-
             <div class="project-credit">
-
-              <p>
-                <strong>My Contribution:</strong>
-                Co-builder / Co-developer
-              </p>
-
-              <p>
-                <strong>Collaborator:</strong>
-                Diamond Belema
-              </p>
-
+              <p><strong>My Contribution:</strong> Co-builder / Co-developer</p>
+              <p><strong>Collaborator:</strong> Diamond Belema</p>
             </div>
-
-            <div class="project-tags">
-
-              <span>Collaborative Development</span>
-              <span>Language Learning</span>
-              <span>Web</span>
-
-            </div>
-
-            <a
-              href="https://diamondbelema.github.io/HanziRise"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="project-link"
-            >
-              Explore HanziRise ↗
-            </a>
-
+            <div class="project-tags"><span>Collaboration</span><span>Language Learning</span><span>Web</span></div>
+            <a href="https://diamondbelema.github.io/HanziRise" target="_blank" rel="noopener noreferrer" class="project-link">Explore HanziRise ↗</a>
           </div>
-
         </article>
 
-
-        <!-- PLANETARY SYSTEM PROJECT -->
         <article class="project-card">
-
           <div class="project-image planetary-image">
-
-            <img
-              src="./planetary.png"
-              alt="Planetary System educational website preview"
-            >
-
+            <img src="./planetary.png" alt="Planetary System website preview">
           </div>
-
-
           <div class="project-content">
-
-            <span class="project-tag">
-              FIRST WEB PROJECT
-            </span>
-
-            <div class="project-meta">
-              <span>02 / EDUCATIONAL TECHNOLOGY</span>
-              <span>WEB PROJECT</span>
-            </div>
-
+            <span class="project-tag">FIRST WEB PROJECT</span>
+            <div class="project-meta"><span>02 / EDUCATIONAL TECHNOLOGY</span><span>WEB PROJECT</span></div>
             <h3>Planetary System</h3>
-
-            <p>
-              An educational website introducing our solar
-              system and exploring the unique physical
-              characteristics of the planets through
-              visual information.
-            </p>
-
+            <p>An educational website introducing the solar system and presenting information about the planets.</p>
             <h4>Project Highlights</h4>
-
             <ul>
               <li>Introduction to the solar system</li>
               <li>Planetary information and facts</li>
-              <li>Visual comparisons between planets</li>
               <li>Educational content presentation</li>
             </ul>
-
             <div class="project-credit">
-
-              <p>
-                <strong>My Role:</strong>
-                Sole Developer
-              </p>
-
-              <p>
-                <strong>Project Background:</strong>
-                My first website project
-              </p>
-
+              <p><strong>My Role:</strong> Sole Developer</p>
+              <p><strong>Background:</strong> My first website project</p>
             </div>
-
-            <div class="project-tags">
-
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>Education</span>
-
-            </div>
-
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>Education</span></div>
           </div>
-
         </article>
 
-
+        <article class="project-card">
+          <div class="project-image planner-preview">
+            <div class="planner-preview-icon">✓</div>
+            <h3>Academic Planner</h3>
+            <p>Plan · Organise · Complete</p>
+          </div>
+          <div class="project-content">
+            <span class="project-tag">JAVASCRIPT PROJECT</span>
+            <div class="project-meta"><span>03 / PRODUCTIVITY</span><span>INTERACTIVE APP</span></div>
+            <h3>Academic Task Planner</h3>
+            <p>An interactive task management tool that helps students organise academic activities and monitor task completion.</p>
+            <h4>Key Features</h4>
+            <ul>
+              <li>Add academic tasks</li>
+              <li>Mark tasks as completed</li>
+              <li>Delete tasks</li>
+              <li>View task completion statistics</li>
+            </ul>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="#planner" class="project-link">Try the Planner ↓</a>
+          </div>
+        </article>
       </div>
-
     </section>
 
-
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="section contact-section">
-
+    <section id="planner" class="section">
       <div class="section-heading">
-
-        <span class="section-label">
-          GET IN TOUCH
-        </span>
-
-        <h2>
-          Let's Build Something <span>Meaningful</span>
-        </h2>
-
-        <p>
-          Interested in technology, collaboration or exchanging
-          ideas? I would love to connect.
-        </p>
-
+        <span class="section-label">STAY ORGANISED</span>
+        <h2>My Academic <span>Planner</span></h2>
+        <p>Add tasks, track your progress and organise your study activities.</p>
       </div>
-
-
-      <div class="contact-card">
-
-        <h3>Have an idea or opportunity?</h3>
-
-        <p>
-          Feel free to reach out through email or connect
-          with me professionally on LinkedIn.
-        </p>
-
-        <a
-          href="mailto:emmanuellaudemba08@gmail.com"
-          class="primary-button"
-        >
-          Send Me an Email
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/emmanuella-udemba-a157283a9/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="contact-link"
-        >
-          Connect on LinkedIn ↗
-        </a>
-
+      <div class="planner-card">
+        <div class="planner-top">
+          <div><h3>My Tasks</h3><p id="current-date">Today's date</p></div>
+          <div class="task-stats">
+            <span id="task-count">0 tasks</span>
+            <span id="completed-count">0 completed</span>
+          </div>
+        </div>
+        <form id="task-form" class="task-form">
+          <label for="task-input">Task description</label>
+          <input type="text" id="task-input" placeholder="e.g. Study HTML forms" maxlength="100" required>
+          <label for="task-date">Due date</label>
+          <input type="date" id="task-date">
+          <button type="submit" class="primary-button">Add Task +</button>
+        </form>
+        <p id="planner-feedback" class="feedback" aria-live="polite"></p>
+        <ul id="task-list" class="task-list">
+          <li class="empty-task">No tasks yet. Add your first task!</li>
+        </ul>
       </div>
-
     </section>
 
+    <section id="multimedia" class="section">
+      <div class="section-heading">
+        <span class="section-label">LEARNING THROUGH MEDIA</span>
+        <h2>Multimedia <span>Learning</span></h2>
+        <p>Multimedia elements can support learning through visual and audio content.</p>
+      </div>
+      <div class="media-card">
+        <h3>HTML Learning Video</h3>
+        <p>This section demonstrates the HTML video element. The clip below is a sample demonstration video.</p>
+        <video controls width="100%" preload="metadata">
+          <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video>
+        <p class="media-note">Sample demonstration video; it is not a personal recording.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <span class="section-label">GET IN TOUCH</span>
+        <h2>Let's Build Something <span>Meaningful</span></h2>
+        <p>Interested in technology, collaboration or exchanging ideas? Feel free to contact me.</p>
+      </div>
+      <div class="contact-card">
+        <h3>Send Me a Message</h3>
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-group">
+            <label for="contact-name">Full Name</label>
+            <input type="text" id="contact-name" placeholder="Enter your full name" required>
+            <small id="name-error" class="field-error"></small>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email Address</label>
+            <input type="email" id="contact-email" placeholder="example@email.com" required>
+            <small id="email-error" class="field-error"></small>
+          </div>
+          <div class="form-group">
+            <label for="contact-phone">Phone Number</label>
+            <input type="tel" id="contact-phone" placeholder="e.g. 08012345678" required>
+            <small id="phone-error" class="field-error"></small>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" rows="5" placeholder="Write your message..." required></textarea>
+            <small id="message-error" class="field-error"></small>
+          </div>
+          <button type="submit" class="primary-button">Validate Message</button>
+          <p id="contact-feedback" class="feedback" aria-live="polite"></p>
+        </form>
+        <p class="form-note">This demonstration validates your form in the browser. It does not send or store messages.</p>
+        <div class="contact-details">
+          <a href="mailto:emmanuellaudemba08@gmail.com">emmanuellaudemba08@gmail.com</a>
+          <a href="https://www.linkedin.com/in/emmanuella-udemba-a157283a9/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
   </main>
 
-
-  <!-- FOOTER -->
   <footer class="footer">
-
-    <a href="#home" class="logo">
-      NUELLA<span>.</span>
-    </a>
-
-    <p>
-      Designed and developed by Emmanuella Udemba.
-    </p>
-
-    <p>
-      © 2026 All Rights Reserved.
-    </p>
-
+    <a href="#home" class="logo">NUELLA<span>.</span></a>
+    <p>Designed and developed by Emmanuella Udemba.</p>
+    <p>© <span id="current-year">2026</span> All Rights Reserved.</p>
   </footer>
-
-
-  <script src="script.js"></script>
-
 </body>
 </html>
